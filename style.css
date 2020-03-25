@@ -1,0 +1,162 @@
+body{
+    margin: 0em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mytopnav{
+    background-color: black;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+   
+}
+.menu{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0;
+    text-align: left;
+    
+    
+
+}
+
+.menu li{
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+    list-style: none;
+    margin: 0;
+    
+    
+    
+}
+.menu  li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu li:hover{
+    background-color: grey;
+}
+.img1{
+    width:100%;
+    margin: 0;
+    
+    
+}
+
+@media screen and (max-width:600px){
+    .menu li{
+        font-size: large;
+    }
+    
+    
+    
+}
+h1,.p1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    padding: 50px;
+}
+.p2{
+   text-align: justify;
+   margin: 5px;
+}
+.p1{
+    font-style: italic;
+    color: gray;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+
+}
+.desc{
+    text-align: center;
+    font-weight: bold;
+}
+@media screen and (min-width:1024px){
+   .p2{
+       width: 70%;
+       margin-left: 15%;
+   }
+}
+.tourgallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+#tour h1{
+    color: white;
+}
+.tp1{
+    color: gray;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 0.2rem;
+    border: black;
+}
+button:hover{
+    background-color: grey;
+}
+.imgallery{
+    border: black;
+    background-color: white;
+    padding: 5px;
+    
+}
+.tourguide{
+    background-color: black;
+}
+.tourimg{
+    width: 250px;
+    height: 350px;
+}
+@media screen and (max-width:600px){
+    .imgallery{
+        width: 90%;
+        margin: auto;
+    }
+    .tourimg{
+        width: 100%;
+    }
+}
+#contact{
+    font-size: larger;
+}
+
+.img3{
+    width: 100%;
+}
+@media screen and (max-width:600px){
+    
+    
+}
+.infor{
+    list-style: none;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+input{
+    display: block;
+}
+input [type=text]{
+    width: 70%;
+
+}
